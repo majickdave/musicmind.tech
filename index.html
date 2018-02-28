@@ -18,24 +18,39 @@
     justify-content: center;
     align-items: center;
   }
+
+ body {
+  background: #545454;
+}
+
+  p, h2 {
+  background: -webkit-linear-gradient(yellow, lime);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
 </style>
+
   <body>
     <main role="main">
+      <div class="center">
       <header role="banner">
-        <h1 class="font-style center"><span role="img" aria-labelledby="musicmind"> 😎 | 🚧 </span></h1>
-      </header>
-      <section>
-            <div className="App">
-      <header className="App-header ">
-        <h1 className="App-title">Please Excuse our appearance. MusicMind is Currently Under Construction</h1>
-        <p className="App-intro">
-          Please check back soon.
-        </p>
-
+        <p class="font-style"><span role="img" aria-labelledby="musicmind"> 🛠 | 🚧 </span></p>
       </header>
     </div>
-    </section>
+    <div class="center">
+
+        <h2 className="App-title">Please Excuse our appearance. MusicMind is Currently Under Construction.</h2>
+      </div>
+      <div class="center">
+        <p className="App-intro">
+          Check back soon.
+        </p>
+
+      </div>
     </main>
   </body>
-
 </html>
