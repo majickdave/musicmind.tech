@@ -4,8 +4,7 @@
   <head>
       <title>MusicMind</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   </head>
 
 <style>
@@ -17,6 +16,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px
+  }
+
+  .email {
+    position: fixed;
+    bottom: 30px;
+    right: 5%;
+  }
+  .email-button {
+    background-color: #000000;
+    border-radius: 20px;
+    border: 1px solid white;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 255, 0, 0.3));
+    cursor: pointer;
   }
 
  body {
@@ -43,13 +56,20 @@
     </div>
     <div class="center">
 
-        <h2 className="App-title">Please Excuse our appearance. MusicMind is Currently Under Construction.</h2>
+        <h2 className="App-title">Please excuse our appearance. MusicMind is currently under construction.</h2>
       </div>
       <div class="center">
         <p className="App-intro">
           Check back soon.
         </p>
 
+      </div>
+      <div class="email">
+        <a href="mailto:cryptondave@gmail.com" >
+          <button class="email-button" type="button">
+          <p>email</p>
+        </button>
+      </a>
       </div>
     </main>
   </body>
